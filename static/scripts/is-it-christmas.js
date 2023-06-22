@@ -1,7 +1,7 @@
 function isChristmas() {
-  var date = new Date();
-  var month = date.getMonth() + 1; // Months are zero-based
-  var day = date.getDate();
+  let date = new Date();
+  let month = date.getMonth() + 1; // Months are zero-based
+  let day = date.getDate();
 
   if (month === 12 && day === 25) {
     return true;
@@ -11,7 +11,7 @@ function isChristmas() {
 }
 
 function updateResult() {
-  var resultElement = document.getElementById("result");
+  let resultElement = document.getElementById("result");
   if (isChristmas()) {
     resultElement.innerHTML = "YES";
   } else {
