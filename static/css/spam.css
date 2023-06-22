@@ -1,0 +1,12 @@
+body {
+  background-color: black;
+  overflow: hidden;
+}
+
+.random-char {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgb(48, 210, 48);
+  font-size: 20px;
+}

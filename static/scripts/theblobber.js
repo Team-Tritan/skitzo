@@ -59,5 +59,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   setTimeout(function () {
     alert("you got blobbered");
+    window.location.href = "/spam";
   }, 60000);
 });
