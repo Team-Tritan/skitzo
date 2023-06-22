@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" src="/static/css/is-it-christmas.css"></link>
+    <style>
+      body {
+        background-color: black;
+      }
+
+      p {
+        color: white;
+        font-size: 100px;
+        text-align: center;
+      }
+    </style>
     <script src="/static/scripts/is-it-christmas.js"></script>
   </head>
-  <body onload="updateResult()" style="background-color: black;">
+  <body onload="updateResult()" style="background-color: black">
     <p><span id="result"></span></p>
   </body>
 </html>
