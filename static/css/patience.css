@@ -5,6 +5,17 @@ body {
   overflow: hidden;
 }
 
+.secs {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
 .loader {
   position: absolute;
   top: 50%;
